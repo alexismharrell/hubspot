@@ -1,0 +1,36 @@
+      // does a conversation entry exist already
+      // if (!conversations.has(convoId)) {
+      //   let convoObject: Conversation = {
+      //     avatar: users.get(convoId)?.avatar || "",
+      //     firstName: users.get(convoId)?.firstName || "",
+      //     lastName: users.get(convoId)?.lastName || "",
+      //     mostRecentMessage: mostRecent,
+      //     totalMessages: 1,
+      //     userId: convoId,
+      //   }
+      //   conversations.set(convoId, convoObject)
+      // } else {
+      //   // conversation exists, so figure out if its the most recent and increment total messages
+      //   if (conversations.get(convoId)!.mostRecentMessage.timestamp < element.timestamp) {
+      //     let convoObject: Conversation = {
+      //       avatar: users.get(convoId)?.avatar || "",
+      //       firstName: users.get(convoId)?.firstName || "",
+      //       lastName: users.get(convoId)?.lastName || "",
+      //       mostRecentMessage: mostRecent,
+      //       totalMessages: conversations.get(convoId)!.totalMessages++,
+      //       userId: convoId,
+      //     }
+      //     conversations.set(convoId, convoObject)
+      //   } else {
+      //     conversations.get(convoId)!.totalMessages++
+      //   }
+      // }
+
+      //       let mostRecent: MostRecent = {
+      //   content: element.content,
+      //   timestamp: element.timestamp,
+      //   userId: element.toUserId
+      // }
+
+      // let convoId =
+      //   element.toUserId === userId ? element.fromUserId : element.toUserId
